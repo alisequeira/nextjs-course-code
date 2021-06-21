@@ -2,6 +2,8 @@ import PostHeader from "./post-header";
 import ReactMarkdown from "react-markdown";
 import classes from "./post-content.module.css";
 import Image from "next/image";
+import { Prism as SyntaxHighLighter } from "react-syntax-highlighter";
+import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 function PostContent({ post }) {
   const imagePath = `/images/post/${post.slug}/${post.image}`;
