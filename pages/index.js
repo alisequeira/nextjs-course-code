@@ -1,4 +1,5 @@
 import Hero from "../components/home/Hero";
+import FeaturedPosts from "../components/home/featured-posts";
 function HomePage() {
   return (
     <>
